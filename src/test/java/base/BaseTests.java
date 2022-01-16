@@ -18,6 +18,7 @@ public class BaseTests {
     @BeforeClass
     public void setUp(){
         ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.setHeadless(true);
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();
