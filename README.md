@@ -14,7 +14,7 @@ We recommend using JDK 17.
 ## Setup: 🎬
 1- Clone the repository with the following command
 ```bash
-git clone git@github.com:ahmedelsayedz/w2a_ui.git
+git clone git@github.com:ahmedelsayedz/AhmedMahmoud-SrTestAutomation.git
 ```
 
 ## Local Execution: 🤖
