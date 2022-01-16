@@ -24,3 +24,10 @@ jobs:
         distribution: 'adopt'
     - name: Build with Maven
       run: mvn clean test
+    # Upload the contents of Test Results directory to workspace
+    - name: Output the run Details
+      if: always()
+      uses: actions/upload-artifact@v2
+      with: 
+         name: RunReports
+         path: testResults
