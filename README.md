@@ -1,11 +1,12 @@
-# 🔥 API Test Suite 🔥
+# 🔥 UI & API Tests 🔥
 
-This repo contains a collection of automation test cases that targets Elmenus APIs.
+This repo contains a collection of automation test cases that targets the UI & API test cases.
 
 ## Testing Stack: 🔑 
 - Java
 - Selenium
 - Maven
+- Rest Assured
 - Github Action
 
 ## Requirements: 🔧
